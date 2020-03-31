@@ -18,3 +18,10 @@ Coming Soon!<br>
 
 ## Receiving Hologram (AR Device Side)
 Coming Soon!<br>
+
+# Give Me Your Feedback
+I'm glad if you'll give me feedback, or tag me when you share the video of your experience on SNS or other web-media.<br><br>
+<b>Contact Me</b><br>
+Twitter: @Tks_Yoshinaga (https://twitter.com/Tks_Yoshinaga)<br>
+LinkedIn: Takashi Yoshinaga (https://www.linkedin.com/in/tks-yoshinaga/?locale=en_US)<br>
+<br>
