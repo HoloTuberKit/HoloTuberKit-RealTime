@@ -8,7 +8,7 @@ Following version of hologram viewer application are avairable on Android device
 
 ## Hologram Capture
 This application captures RGB and Depth image from Azure Kinect and generates RGB-D conbined image.<br>
-To broadcast hologram, OBS Studio and your own YouTube account are also necessary.<br><br>
+To broadcast hologram, OBS Studio and OBS VirtualCam are also necessary.<br><br>
 <b>OBS Studio:</b> https://obsproject.com/download  <br>
 <b>OBS VirtualCam:</b> https://github.com/CatxFish/obs-virtual-cam <br>
 <br>
