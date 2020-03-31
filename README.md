@@ -1,5 +1,5 @@
 # HoloTuberKit WebRTC for AzureKinect
-Simple Volumetric Video capture &amp; AR visualizer for Azure Kinect. OBS studio are also necessary to broadcast RGB-D images.<br>
+Simple Volumetric Video capture &amp; AR visualizer for Azure Kinect. OBS studio camera is also necessary to capture RGB-D images.<br>
 
 # Files Included
 ## Hologram Viewer
