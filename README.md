@@ -46,7 +46,7 @@ This application captures RGB and Depth image from Azure Kinect and generates RG
 
 ## Hologram Viewer (AR Device Side)
 1) Install apk into your Smartphone (Android).<br>
-2) Enter the same Streaming ID that you entered in the app.<br>
+2) Enter the same Streaming ID that you entered in the PC app.<br>
 3) Tap <b>Connect</b> button.<br>
 
 # Give Me Your Feedback
