@@ -23,7 +23,7 @@ https://github.com/mrayy/UnityCam
 <br><br>
 
 # How To Use
-## Hologram Capture
+## Hologram Capture (PC side)
 This application captures RGB and Depth image from Azure Kinect and generates RGB-D conbined image.<br>
 1) Connect Azure Kinect and your PC.<br>
 2) Open AzureKinectCapture folder.<br>
@@ -44,7 +44,7 @@ This application captures RGB and Depth image from Azure Kinect and generates RG
 11) RGB-D Capturing is started.<br>
   <img src="/images/04.png" alt="" width="400"><br><br>
 
-## Receiving Hologram (AR Device Side)
+## Hologram Viewer (AR Device Side)
 1) Install apk into your Smartphone (Android).<br>
 2) Enter the same Streaming ID that you entered in the app.<br>
 3) Tap <b>Connect</b> button.<br>
