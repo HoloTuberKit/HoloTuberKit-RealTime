@@ -50,4 +50,12 @@ I'm glad if you'll give me feedback, or tag me when you share the video of your 
 <b>Contact Me</b><br>
 Twitter: @Tks_Yoshinaga (https://twitter.com/Tks_Yoshinaga)<br>
 LinkedIn: Takashi Yoshinaga (https://www.linkedin.com/in/tks-yoshinaga/?locale=en_US)<br>
+<br><br>
+# Acknowledgments
+This application is developed with folowing tools.<br>
+## WebRTC Video Chat
+https://assetstore.unity.com/packages/tools/network/webrtc-video-chat-68030
+<br>
+## UnityCam
+https://github.com/mrayy/UnityCam
 <br>
