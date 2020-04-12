@@ -7,13 +7,13 @@ The capture app is compatible with Windows 10 and the viewer is compatible with 
 <br><br>
 
 # Requirements
-<b>・ Azure Kinect Sensor SDK v1.4.0</b> <br>
+## Azure Kinect Sensor SDK v1.4.0
 https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
 <br><br>
-<b>・ UnityCam</b> <br>
+## UnityCam
 https://github.com/mrayy/UnityCam
 <br>
-[Instalation]<br>
+<b>Instalation</b><br>
 1) Access folder "RunMe First" -> "x64". <br>
 2) Right click on "Register.bat".<br>
 3) Click "Run as Administrator" to register UnityCam plugin in Windows. <br>
