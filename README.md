@@ -15,35 +15,35 @@ https://github.com/mrayy/UnityCam
 <br>
 [Instalation]<br>
 1)Access folder "RunMe First" -> "x64". <br>
-2)Right click on "Register.bat".
+2)Right click on "Register.bat".<br>
 3)Click "Run as Administrator" to register UnityCam plugin in Windows. <br>
 <br>
 # How To Use
 ## Hologram Capture
 This application captures RGB and Depth image from Azure Kinect and generates RGB-D conbined image.<br>
-1) Connect Azure Kinect and your PC.
-2) Open AzureKinectCapture folder.
-3) Run <b>RTC_Server.exe</b>
+1) Connect Azure Kinect and your PC.<br>
+2) Open AzureKinectCapture folder.<br>
+3) Run <b>RTC_Server.exe</b><br>
 4) Enter your unique Streaming ID in the text area.<br>
 (Please be careful not to duplicate this ID with other users!!)<br>
-5) Click setting button.
+5) Click setting button.<br>
   <img src="/images/01.png" alt="" width="400"><br><br>
 6) Set resolution and FPS to:<br>
 　Rsolution: 960x540　<br>
 　FPS: 20 <br>
-7) Turn On <b>Aut rejoin</b> ir it's necessary.
-8) Click check button at right buttom of the window.
+7) Turn On <b>Aut rejoin</b> ir it's necessary.<br>
+8) Click check button at right buttom of the window.<br>
   <img src="/images/02.png" alt="" width="400"><br><br>
-9) Select <b>UnityCam</b> installed beforehand.
-10) Click Join button.
+9) Select <b>UnityCam</b> installed beforehand.<br>
+10) Click Join button.<br>
   <img src="/images/03.png" alt="" width="400"><br><br>
-11) RGB-D Capturing is started.
+11) RGB-D Capturing is started.<br>
   <img src="/images/04.png" alt="" width="400"><br><br>
 
 ## Receiving Hologram (AR Device Side)
-1) Install apk into your Smartphone (Android).
-2) Enter the same Streaming ID that you entered in the app.
-3) Tap <b>Connect</b> button.
+1) Install apk into your Smartphone (Android).<br>
+2) Enter the same Streaming ID that you entered in the app.<br>
+3) Tap <b>Connect</b> button.<br>
 
 # Give Me Your Feedback
 I'm glad if you'll give me feedback, or tag me when you share the video of your experience on SNS or other web-media.<br><br>
