@@ -55,9 +55,9 @@ LinkedIn: Takashi Yoshinaga (https://www.linkedin.com/in/tks-yoshinaga/?locale=e
 <br><br>
 # Acknowledgments
 This application is developed with folowing tools.<br>
-## WebRTC Video Chat
+### WebRTC Video Chat
 https://assetstore.unity.com/packages/tools/network/webrtc-video-chat-68030
 <br>
-## UnityCam
+### UnityCam
 https://github.com/mrayy/UnityCam
 <br>
