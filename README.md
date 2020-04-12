@@ -52,6 +52,7 @@ I'm glad if you'll give me feedback, or tag me when you share the video of your 
 <b>Contact Me</b><br>
 Twitter: @Tks_Yoshinaga (https://twitter.com/Tks_Yoshinaga)<br>
 LinkedIn: Takashi Yoshinaga (https://www.linkedin.com/in/tks-yoshinaga/?locale=en_US)<br>
+Instagram: tks_yoshinaga　(https://www.instagram.com/tks_yoshinaga/)<br>
 <br><br>
 # Acknowledgments
 This application is developed with folowing tools.<br>
