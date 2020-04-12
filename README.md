@@ -10,6 +10,7 @@ The capture app is compatible with Windows 10 and the viewer is compatible with 
 ## Azure Kinect Sensor SDK v1.4.0
 https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
 <br><br>
+
 ## UnityCam
 https://github.com/mrayy/UnityCam
 <br>
@@ -17,7 +18,8 @@ https://github.com/mrayy/UnityCam
 1) Access folder "RunMe First" -> "x64". <br>
 2) Right click on "Register.bat".<br>
 3) Click "Run as Administrator" to register UnityCam plugin in Windows. <br>
-<br>
+<br><br>
+
 # How To Use
 ## Hologram Capture
 This application captures RGB and Depth image from Azure Kinect and generates RGB-D conbined image.<br>
