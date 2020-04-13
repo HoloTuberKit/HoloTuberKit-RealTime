@@ -64,3 +64,6 @@ https://assetstore.unity.com/packages/tools/network/webrtc-video-chat-68030
 ### UnityCam
 https://github.com/mrayy/UnityCam
 <br>
+### AzureKinect SDK
+https://github.com/microsoft/Azure-Kinect-Sensor-SDK
+<br>
