@@ -1,6 +1,6 @@
 # HoloTuberKit WebRTC for AzureKinect
 Simple Volumetric Video capture &amp; AR visualizer for Azure Kinect. 
-The capture app is compatible with Windows 10 and the viewer is compatible with Android (ARCore/Vuforia).
+The capture app is compatible with Windows 10 and the viewer is compatible with Android (ARCore/Vuforia) and LookingGlass(old).
 <br><br>
 [YouTube Video]<br>
 [![](https://img.youtube.com/vi/m_uFsbNz-Ko/0.jpg)](https://www.youtube.com/watch?v=m_uFsbNz-Ko)
