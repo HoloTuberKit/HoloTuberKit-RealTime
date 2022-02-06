@@ -19,7 +19,7 @@ https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
 <br><br>
 
 # How To Use
-## Hologram Capture (PC side)
+## Capture APplication (PC side)
 This application captures RGB and Depth image from Azure Kinect and generates RGB-D conbined image.<br>
 1) Connect Azure Kinect and your PC.<br>
 2) Open <b>HoloTuber_Server</b> folder.<br>
@@ -28,11 +28,16 @@ This application captures RGB and Depth image from Azure Kinect and generates RG
 (Please be careful not to duplicate this ID with other users!!)<br>
 5) Click <b>Start</b> button.<br>
   <img src="/images/01.png" alt="" width="400"><br><br>
-6) RGB-D Capturing is started.<br>
+6) Capturing and steraming are started.<br>
   <img src="/images/02.png" alt="" width="400"><br><br>
 
-## Hologram Viewer (AR Device Side)
-1) Install apk into your Smartphone (Android).<br>
+## Viewer Applications (ARCore/NrealLight/HoloSDK)
+1) Install application on your devide.<br>
+　- ARCore/Nreal: Install compatible apk.<br>
+　- HoloSDK: Unzip HoloSDK_WRTC_HoloTuberKit.zip.<br>
+2) Run application<br>
+　- ARCore/Nreal: HoloTuber(WRTC).<br>
+　- HoloSDK: HoloTuberKit.exe.<br>
 2) Enter the same Streaming ID that you entered in the PC app.<br>
 3) Tap <b>Connect</b> button.<br>
 
