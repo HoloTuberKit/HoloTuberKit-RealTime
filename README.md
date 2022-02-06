@@ -35,7 +35,7 @@ This application captures RGB and Depth image from Azure Kinect and generates RG
 1) Install application on your devide.<br>
 　- ARCore/Nreal: Install compatible apk.<br>
 　- HoloSDK: Unzip HoloSDK_WRTC_HoloTuberKit.zip.<br>
-2) Run application<br>
+2) Launch application<br>
 　- ARCore/Nreal: HoloTuber(WRTC).<br>
 　- HoloSDK: HoloTuberKit.exe.<br>
 2) Enter the same Streaming ID that you entered in the PC app.<br>
