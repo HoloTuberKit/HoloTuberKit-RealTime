@@ -1,25 +1,21 @@
 # HoloTuberKit WebRTC for AzureKinect
 Simple Volumetric Video capture &amp; AR visualizer for Azure Kinect. 
-The capture app is compatible with Windows 10 and the viewer is compatible with Android (ARCore/Vuforia) and LookingGlass(old).
+The capture app is compatible with Windows 10.<br>
+Viewer apps are compatible with following platforms.<br>
+(1) ARCore(Android)<br>
+(2) Nreal Light<br>
+(3) HoloSDK(Windows)<br>
+　-For using HoloSDK app, please instal HoloSDK.(https://www.holo-sdk.com/)
 <br><br>
 [YouTube Video]<br>
 [![](https://img.youtube.com/vi/m_uFsbNz-Ko/0.jpg)](https://www.youtube.com/watch?v=m_uFsbNz-Ko)
 <br><br>
 You can try also YouTube Live version from below.<br>
-https://github.com/TakashiYoshinaga/HoloTuberKit-for-AzureKinect
+https://github.com/HoloTuberKit/HoloTuberKit-for-AzureKinect
 <br><br>
 # Requirements
-## Azure Kinect Sensor SDK v1.4.0
+## Azure Kinect Sensor SDK v1.4.1
 https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
-<br><br>
-
-## UnityCam
-https://github.com/mrayy/UnityCam
-<br>
-<b>Instalation</b><br>
-1) Access folder "RunMe First" -> "x64". <br>
-2) Right click on "Register.bat".<br>
-3) Click "Run as Administrator" to register UnityCam plugin in Windows. <br>
 <br><br>
 
 # How To Use
