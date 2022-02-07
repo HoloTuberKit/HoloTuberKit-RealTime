@@ -5,6 +5,7 @@ Viewer apps are compatible with following platforms.<br>
 (1) ARCore(Android)<br>
 (2) Nreal Light<br>
 (3) Meta Quest<br>
+　-Quest must be developer mode.
 (4) HoloSDK(Windows)<br>
 　-For using HoloSDK app, please instal HoloSDK.(https://www.holo-sdk.com/)
 <br><br>
