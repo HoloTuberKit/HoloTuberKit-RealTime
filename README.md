@@ -4,7 +4,8 @@ The capture app is compatible with Windows 10.<br>
 Viewer apps are compatible with following platforms.<br>
 (1) ARCore(Android)<br>
 (2) Nreal Light<br>
-(3) HoloSDK(Windows)<br>
+(3) Meta Quest<br>
+(4) HoloSDK(Windows)<br>
 　-For using HoloSDK app, please instal HoloSDK.(https://www.holo-sdk.com/)
 <br><br>
 [YouTube Video]<br>
@@ -36,10 +37,10 @@ This application captures RGB and Depth image from Azure Kinect and generates RG
 
 ## Viewer Applications (ARCore/NrealLight/HoloSDK)
 1) Install application on your devide.<br>
-　- ARCore/Nreal: Install compatible apk.<br>
+　- ARCore/Nreal/Quest: Install compatible apk.<br>
 　- HoloSDK: Unzip HoloSDK_WRTC_HoloTuberKit.zip.<br>
 2) Launch application<br>
-　- ARCore/Nreal: HoloTuber(WRTC).<br>
+　- ARCore/Nreal/Quest: HoloTuber(WRTC).<br>
 　- HoloSDK: HoloTuberKit.exe.<br>
 2) Enter the same Streaming ID that you entered in the PC app.<br>
 3) Tap <b>Connect</b> button.<br>
