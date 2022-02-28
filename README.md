@@ -11,13 +11,14 @@ Viewer apps are compatible with following platforms.<br>
 <br><br>
 [YouTube Video]<br>
 [![](https://img.youtube.com/vi/m_uFsbNz-Ko/0.jpg)](https://www.youtube.com/watch?v=m_uFsbNz-Ko)
-<br>
-## Download Page
-https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.0.0
 <br><br>
 You can try also YouTube Live version from below.<br>
 https://github.com/HoloTuberKit/HoloTuberKit-for-AzureKinect
 <br><br>
+## Download Page
+https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.0.0
+<br><br>
+
 # Requirements
 ## Azure Kinect Sensor SDK v1.4.1
 https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
