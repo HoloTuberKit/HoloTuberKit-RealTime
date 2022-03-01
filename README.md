@@ -2,10 +2,10 @@
 Simple Volumetric Video capture &amp; AR visualizer for Azure Kinect. 
 The capture app is compatible with Windows 10.<br>
 Viewer apps are compatible with following platforms.<br>
-(1) ARCore(Android)<br>
-(2) Nreal Light<br>
+(1) Nreal Light<br>
+(2) ARCore(Android)<br>
 (3) Meta Quest<br>
-　-Quest must be developer mode.<br>
+　-Android Phone and Quest must be developer mode.<br>
 (4) HoloSDK(Windows)<br>
 　-For using HoloSDK app, please instal HoloSDK.(https://www.holo-sdk.com/)
 <br><br>
