@@ -16,7 +16,7 @@ You can try also YouTube Live version from below.<br>
 https://github.com/HoloTuberKit/HoloTuberKit-for-AzureKinect
 <br><br>
 ## Download Page
-https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.0.0
+https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.1.0
 <br><br>
 
 # Requirements
