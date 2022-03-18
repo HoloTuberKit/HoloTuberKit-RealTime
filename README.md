@@ -53,5 +53,9 @@ I'm glad if you'll give me feedback, or tag me or use hash tag, #HoloTuberKit, w
 Twitter: @Tks_Yoshinaga (https://twitter.com/Tks_Yoshinaga)<br>
 LinkedIn: Takashi Yoshinaga (https://www.linkedin.com/in/tks-yoshinaga/?locale=en_US)<br>
 Instagram: tks_yoshinaga　(https://www.instagram.com/tks_yoshinaga/)<br>
+# If you have any question.
+There is the channel of HoloTuber Kit on Discord of AR_Fukuoka.<br>
+Feel free to join us!<br>
+https://discord.gg/XzrPmgGbfn
 <br><br>
 <br>
