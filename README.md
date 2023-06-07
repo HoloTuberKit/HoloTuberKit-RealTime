@@ -14,7 +14,7 @@ Viewer apps are compatible with following platforms.<br>
 [![](https://img.youtube.com/vi/m_uFsbNz-Ko/0.jpg)](https://www.youtube.com/watch?v=m_uFsbNz-Ko)
 <br><br>
 ## Download Page
-https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.1.1
+https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.2.0
 <br><br>
 
 # Requirements
