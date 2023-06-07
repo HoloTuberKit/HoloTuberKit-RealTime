@@ -57,8 +57,8 @@ This application captures RGB and Depth image from TrueDepth Camera of iOS devic
 　- LookingGlass: Unzip LKG_WRTC_HoloTuberKit.zip.<br>
 　- iOS: Send an e-mail for sign up. (tks.yoshinaga[at]gmail.com)
 2) Launch application<br>
-　- ARCore/Nreal/Quest: HoloTuber(WRTC).<br>
-　- HoloSDK: HoloTuberKit.exe.<br>
+　- ARCore/ARKit/Nreal/Quest: HoloTuber(WRTC).<br>
+　- LookingGlass: HoloTuberKit.exe.<br>
 2) Enter the same Streaming ID that you entered in the capture app.<br>
 3) Tap <b>Connect</b> button or enter key of vertual keyboard.<br>
 
