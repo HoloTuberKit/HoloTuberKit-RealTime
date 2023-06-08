@@ -3,7 +3,7 @@ HoloTuberKit WebRTC is a simple solution for volumetric video capture and AR vis
 
 ## Capture Apps Compatibility
 1. Azure Kinect(For Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).)
-2. True Depth Camera(iOS Devices. iPhoneX or newer)<br>
+2. True Depth Camera(For iOS Devices. iPhoneX or newer)<br>
 (*)For using True Depth app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
 
 ## Viewer Apps Compatibility
