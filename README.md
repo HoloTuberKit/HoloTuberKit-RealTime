@@ -1,66 +1,63 @@
 # HoloTuberKit WebRTC
-Simple Volumetric Video capture &amp; AR visualizer. <br>
-The capture app is compatible with Windows 10 (with AzureKinect) and iOS (with True Depth Camera).<br>
-Viewer apps are compatible with following platforms.<br>
-(1) XREAL(Nreal) Light<br>
-(2) ARCore(Android)/ ARKit(iOS)<br>
-(3) Meta Quest<br>
-　-Android Phone and Quest must be developer mode.<br>
-(4) LookingGlass Portrait<br>
-　-For using LookingGlass, please instal LookingGlass Bridge.
-([LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge))
-<br><br>
-[YouTube Video]<br>
-[![](https://img.youtube.com/vi/m_uFsbNz-Ko/0.jpg)](https://www.youtube.com/watch?v=m_uFsbNz-Ko)
-<br><br>
-## Download Page
-https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.2.0
-<br><br>
+HoloTuberKit WebRTC is a simple solution for volumetric video capture and AR visualization. We offer both capture and viewer apps compatible with various platforms:
 
-# Requirements
-## For Kinect User 
-<b>Azure Kinect Sensor SDK v1.4.1</b><br>
-https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
-<br>
-## For TrueDepth Camera User (iPhone X~)
-<b>Test Flight</b><br>
-https://apps.apple.com/jp/app/testflight/id899247664
-<br>
-Send me an e-mail for sign up. I'll send you invite to iOS app after receiving your e-mail.
-<br>
-tks.yoshinaga[at]gmail.com
-<br><br>
+## Capture Apps Compatibility
+1. Azure Kinect(for Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).)
+2. True Depth Camera(iOS Devices. iPhoneX~)<br>
+(*)For using True Depth app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
+
+## Viewer Apps Compatibility
+1. XREAL(Nreal) Light
+2. Android Phone (ARCore compatibility is required. Also it must be developer mode.)
+3. iPhone/iPad (ARKit compatibility is required)<br>
+(*)For using iOS app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
+4. Meta Quest (It must be developer mode.)
+5. LookingGlass Portrait (Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).)
+
+Check out the YouTube demo video for reference.
+
+[![YouTube Video](https://img.youtube.com/vi/Pu2QlBQJoUo/0.jpg)](https://www.youtube.com/watch?v=Pu2QlBQJoUo)
+
+# Download Page
+Visit [this link](https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.2.0) for download.
 
 # How To Use
-## Capture Application for Kinect
-This application captures RGB and Depth image from Azure Kinect.<br>
-1) Connect Azure Kinect and your PC.<br>
-2) Open <b>HoloTuber_Server</b> folder.<br>
-3) Run <b>HoloTuber_RtcServer.exe</b><br>
-4) Enter your unique Streaming ID in the text area.<br>
-(Please be careful not to duplicate this ID with other users!!)<br>
-5) Click <b>Start</b> button.<br>
-  <img src="/images/01.png" alt="" width="400"><br><br>
-6) Capturing and steraming are started.<br>
-  <img src="/images/02.png" alt="" width="400"><br><br>
-## Capture Application for TrueDepth Camera
-This application captures RGB and Depth image from TrueDepth Camera of iOS device.<br>
-1) Open <b>HoloSender</b> app.<br>
-2) Enter your unique Streaming ID in the text area.<br>
-(Please be careful not to duplicate this ID with other users!!)<br>
-3) Tap <b>Connect</b> button.<br>
-4) Capturing and steraming are started.<br><br>
+## 1. Capture Application (Sender Side)
+### For Kinect User
+This application captures RGB and Depth images from Azure Kinect.
 
-## Viewer Applications (ARCore/NrealLight/LookingGlass)
-1) Install application on your devide.<br>
-　- ARCore/Nreal/Quest: Install compatible apk.<br>
-　- LookingGlass: Unzip LKG_WRTC_HoloTuberKit.zip.<br>
-　- iOS: Send an e-mail for sign up. (tks.yoshinaga[at]gmail.com)
-2) Launch application<br>
-　- ARCore/ARKit/Nreal/Quest: HoloTuber(WRTC).<br>
-　- LookingGlass: HoloTuberKit.exe.<br>
-2) Enter the same Streaming ID that you entered in the capture app.<br>
-3) Tap <b>Connect</b> button or enter key of vertual keyboard.<br>
+1. Connect Azure Kinect to your PC.
+2. Open the **HoloTuber_Server** folder.
+3. Run **HoloTuber_RtcServer.exe**.
+4. Enter a unique Streaming ID in the text field (Take care not to use an ID already in use by another user).
+5. Click the **Start** button.
+<br><img src="/images/01.png" alt="" width="400"><br><br>
+6. By following the above steps, capturing and streaming will be started.
+<br><img src="/images/02.png" alt="" width="400"><br><br>
+### For True Depth Camera User
+This application captures RGB and Depth images from the TrueDepth Camera of your iOS device.
+
+1. Open the **HoloSender** app.
+2. Enter a unique Streaming ID in the text field (Take care not to use an ID already in use by another user).
+3. Tap the **Connect** button.
+
+Now, capturing and streaming are initiated.
+
+## 2. Viewer Applications (Receiver Side)
+Here's how to operate the viewer applications:
+
+1. Install the application on your device.
+   - ARCore/Nreal/Quest: Install the compatible **.apk**.
+   - LookingGlass: Unzip **LKG_WRTC_HoloTuberKit.zip**.
+   - iOS: Send an email for sign up (**tks.yoshinaga[at]gmail.com**.
+2. Launch the application.
+   - ARCore/ARKit/Nreal/Quest: Start HoloTuber(WRTC).
+   - LookingGlass: Run HoloTuberKit.exe.
+3. Enter the same Streaming ID that user of sender side entered in the capture app.
+4. Tap the **Connect** button or hit the **enter key** of the virtual keyboard.
+
+Follow these steps to utilize the viewer applications effectively.
+
 
 # Give Me Your Feedback
 I'm glad if you'll give me feedback, or tag me or use hash tag, #HoloTuberKit, when you share the video of your experience on social media or other web-media.<br><br>
