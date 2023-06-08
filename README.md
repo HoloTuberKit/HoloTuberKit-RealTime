@@ -1,5 +1,5 @@
 # HoloTuberKit WebRTC
-HoloTuberKit WebRTC is a simple solution for volumetric video capture and AR visualization. We offer both capture and viewer apps compatible with various platforms:
+HoloTuberKit WebRTC is a simple solution for volumetric video capture and AR visualization. I offer both capture and viewer apps compatible with various platforms:
 
 ## Capture Apps Compatibility
 1. Azure Kinect(For Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).)
