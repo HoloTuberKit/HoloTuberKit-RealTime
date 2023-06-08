@@ -2,17 +2,21 @@
 HoloTuberKit WebRTC is a simple solution for volumetric video capture and AR visualization. I offer both capture and viewer apps compatible with various platforms:
 
 ## Capture Apps Compatibility
-1. Azure Kinect(For Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).)
+1. Azure Kinect<br>
+(*)For Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
 2. True Depth Camera(For iOS Devices. iPhoneX or newer)<br>
 (*)For using True Depth app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
 
 ## Viewer Apps Compatibility
 1. XREAL(Nreal) Light
-2. Android Phone (ARCore compatibility is required. Also it must be developer mode.)
+2. Android Phone<br>
+(*)ARCore compatibility is required. Also make sure Developer mode is turned on.
 3. iPhone/iPad (ARKit compatibility is required)<br>
 (*)For using iOS app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
-4. Meta Quest (It must be developer mode.)
-5. LookingGlass Portrait (For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).)
+4. Meta Quest<br>
+(*)Make sure Developer mode is turned on for your Meta Quest device. Also, please use SideQuest to install the application.
+5. LookingGlass Portrait<br>
+(*)For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).
 
 Check out the YouTube demo video for reference.
 
