@@ -58,7 +58,7 @@ Here's how to operate the viewer applications:
    - ARCore/ARKit/Nreal/Quest: Start HoloTuber(WRTC).
    - LookingGlass: Run HoloTuberKit.exe.
 3. Enter the same Streaming ID that user of sender side entered in the capture app.
-4. Tap the **Connect** button or hit the **enter key** of the virtual keyboard.
+4. Tap the **Connect** button or hit the **Enter Key** of the virtual keyboard.
 
 Follow these steps to utilize the viewer applications effectively.
 
