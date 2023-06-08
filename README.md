@@ -53,7 +53,7 @@ Here's how to operate the viewer applications:
 1. Install the application on your device.
    - ARCore/Nreal/Quest: Install the compatible **.apk**.
    - LookingGlass: Unzip **LKG_WRTC_HoloTuberKit.zip**.
-   - iOS: Send an email for sign up (**tks.yoshinaga[at]gmail.com**.
+   - iOS: Send an email for sign up (**tks.yoshinaga[at]gmail.com**).
 2. Launch the application.
    - ARCore/ARKit/Nreal/Quest: Start HoloTuber(WRTC).
    - LookingGlass: Run HoloTuberKit.exe.
