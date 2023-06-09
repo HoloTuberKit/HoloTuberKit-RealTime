@@ -14,7 +14,7 @@ HoloTuberKit WebRTC is a simple solution for volumetric video capture and AR vis
 3. iPhone/iPad (ARKit compatibility is required)<br>
 (*)For using iOS app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
 4. Meta Quest<br>
-(*)Make sure Developer mode is turned on for your Meta Quest device. Also, please use SideQuest to install the application.
+(*)Make sure Developer mode is turned on for your Meta Quest device. Also, please use [SideQuest](https://sidequestvr.com) to install the application.
 5. LookingGlass Portrait<br>
 (*)For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).
 
