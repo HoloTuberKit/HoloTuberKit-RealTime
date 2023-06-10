@@ -20,7 +20,7 @@ HoloTuberKit WebRTC is a simple solution for volumetric video capture and AR vis
 
 Check out the YouTube demo video for reference.
 
-[![YouTube Video](https://img.youtube.com/vi/Pu2QlBQJoUo/0.jpg)](https://www.youtube.com/watch?v=Pu2QlBQJoUo)
+[![YouTube Video](https://img.youtube.com/vi/wJfHrD1ZOIo/0.jpg)](https://www.youtube.com/watch?v=wJfHrD1ZOIo)
 
 # Download Page
 Visit [this link](https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.2.0) for download.
