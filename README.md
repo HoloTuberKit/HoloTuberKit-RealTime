@@ -20,6 +20,7 @@ Also, please use [SideQuest](https://sidequestvr.com) to install the application
 5. LookingGlass Portrait<br>
 (*)For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).
 6. Tilt Five<br>
+(*)When using MixCast, please make sure to start MixCast after you have finished entering the connection ID and connecting to the transmission app.
 
 Check out the YouTube demo video for reference.
 
