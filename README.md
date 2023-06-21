@@ -21,6 +21,9 @@ Also, please use [SideQuest](https://sidequestvr.com) to install the application
 (*)For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).
 6. Tilt Five<br>
 (*)When using MixCast, please make sure to start MixCast after you have finished entering the connection ID and connecting to the transmission app.
+6. ZapBox (iOS)<br>
+(*)[ZapBox](https://www.zappar.com/zapbox/) is required. 
+
 
 Check out the YouTube demo video for reference.
 
