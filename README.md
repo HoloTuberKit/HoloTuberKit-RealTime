@@ -74,7 +74,7 @@ Follow these steps to utilize the viewer applications effectively.
 # Give Me Your Feedback
 I'm glad if you'll give me feedback, or tag me or use hash tag, #HoloTuberKit, when you share the video of your experience on social media or other web-media.<br><br>
 <b>Contact Me</b><br>
-Twitter: @Tks_Yoshinaga (https://twitter.com/Tks_Yoshinaga)<br>
+Twitter: @Tks_Yoshinaga (https://twitter.com/Tks_Yoshinaga or https://twitter.com/Taka_Yoshinaga)<br>
 LinkedIn: Takashi Yoshinaga (https://www.linkedin.com/in/tks-yoshinaga/?locale=en_US)<br>
 Instagram: tks_yoshinaga　(https://www.instagram.com/tks_yoshinaga/)<br>
 # Join Our Discord Server
