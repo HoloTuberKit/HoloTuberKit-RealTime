@@ -5,7 +5,7 @@ HoloTuberKit is a simple solution for volumetric video capture and AR visualizat
 1. Azure Kinect<br>
 (*)For Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
 2. True Depth Camera(For iOS Devices. iPhoneX or newer / iPad Pro)<br>
-(*)For using True Depth app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
+Open [AppStore](https://apps.apple.com/us/app/holosender/id6449902663) to install the application.
 
 ## Viewer Apps Compatibility
 1. XREAL(Nreal) Light
