@@ -12,7 +12,7 @@ Open [AppStore](https://apps.apple.com/us/app/holosender/id6449902663) to instal
 2. Android Phone<br>
 (*)ARCore compatibility is required. Also make sure Developer mode is turned on.
 3. iPhone/iPad (ARKit compatibility is required)<br>
-(*)For using iOS app please send an email(**tks.yoshinaga[at]gmail.com**) for sign up.
+(*)This will be included in the Sender app. [AppStore](https://apps.apple.com/us/app/holosender/id6449902663) 
 4. Meta Quest<br>
 (*)Make sure Developer mode is turned on for your Meta Quest device.
 <br>See https://developer.oculus.com/documentation/native/android/mobile-device-setup/<br>
