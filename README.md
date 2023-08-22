@@ -5,14 +5,14 @@ HoloTuberKit is a simple solution for volumetric video capture and AR visualizat
 1. Azure Kinect<br>
 (*)For Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
 2. True Depth Camera(For iOS Devices. iPhoneX or newer / iPad Pro)<br>
-Open [AppStore](https://apps.apple.com/us/app/holosender/id6449902663) to install the application.
+Open [AppStore](https://apps.apple.com/us/app/holotuberkit/id6449902663) to install the application.
 
 ## Viewer Apps Compatibility
 1. XREAL(Nreal) Light
 2. Android Phone<br>
 (*)ARCore compatibility is required. Also make sure Developer mode is turned on.
 3. iPhone/iPad (ARKit compatibility is required)<br>
-(*)This will be included in the Sender app. [AppStore](https://apps.apple.com/us/app/holosender/id6449902663) 
+(*)This will be included in the Sender app. [AppStore](https://apps.apple.com/us/app/holotuberkit/id6449902663) 
 4. Meta Quest<br>
 (*)Make sure Developer mode is turned on for your Meta Quest device.
 <br>See https://developer.oculus.com/documentation/native/android/mobile-device-setup/<br>
