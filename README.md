@@ -20,8 +20,6 @@ Open [AppStore](https://apps.apple.com/us/app/holotuberkit/id6449902663) to inst
 Also, please use [SideQuest](https://sidequestvr.com) to install the application.
 5. LookingGlass Portrait<br>
 (*)For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).
-6. Tilt Five<br>
-(*)When using MixCast, please make sure to start MixCast after you have finished entering the connection ID and connecting to the transmission app.
 
 Check out the YouTube demo video for reference.
 
@@ -29,7 +27,7 @@ Check out the YouTube demo video for reference.
 <br><br>
 
 # Download Page
-Visit [this link](https://github.com/HoloTuberKit/HoloTuberKit-WebRTC-for-AzureKinect/releases/tag/v1.2.0) for download.<br><br>
+Visit [this link](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/tag/v1.3.0) for download.<br><br>
 
 # How To Use
 ## 1. Capture Application (Sender Side)
