@@ -66,6 +66,8 @@ Here's how to operate the viewer applications:
 
 Follow these steps to utilize the viewer applications effectively.
 
+# Known Issue
+In highly secure network environments, it may not be possible to obtain the device's IP address, which can prevent point cloud streaming. In such cases, please use tethering from a smartphone or other means to stream.  
 
 # Give Me Your Feedback
 I'm glad if you'll give me feedback, or tag me or use hash tag, #HoloTuberKit, when you share the video of your experience on social media or other web-media.<br><br>
