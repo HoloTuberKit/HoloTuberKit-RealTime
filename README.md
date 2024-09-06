@@ -18,7 +18,7 @@ Open [AppStore](https://apps.apple.com/us/app/holotuberkit/id6449902663) to inst
 (*)Make sure Developer mode is turned on for your Meta Quest device.
 <br>See https://developer.oculus.com/documentation/native/android/mobile-device-setup/<br>
 Also, please use [SideQuest](https://sidequestvr.com) to install the application.
-5. LookingGlass Portrait<br>
+5. LookingGlass Portrait / Go<br>
 (*)For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).
 
 Check out the YouTube demo video for reference.
