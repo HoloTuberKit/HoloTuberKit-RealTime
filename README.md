@@ -67,7 +67,15 @@ Here's how to operate the viewer applications:
 Follow these steps to utilize the viewer applications effectively.
 
 # Known Issue
+1.Connection Error  
 In highly secure network environments, it may not be possible to obtain the device's IP address, which can prevent point cloud streaming. In such cases, please use tethering from a smartphone or other means to stream.  
+
+2.FireWallSetting for LookingGlass App  
+When running the Windows version of the Looking Glass app for the first time, a dialog will appear asking whether to allow the app to connect to the network.  
+If this appears within the Looking Glass display, the text may be very difficult to read, but please **CLICK the BUTTON on the LEFT**　to allow the connection.  
+If you accidentally click the button on the right, please remove "holotuberkit.exe" from the list of firewall apps.  
+<img src="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/blob/master/images/FireWallSetting.png?raw=true" alt="Firewall Setting" width="360"/>
+
 
 # Give Me Your Feedback
 I'm glad if you'll give me feedback, or tag me or use hash tag, #HoloTuberKit, when you share the video of your experience on social media or other web-media.<br><br>
