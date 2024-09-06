@@ -72,7 +72,7 @@ In highly secure network environments, it may not be possible to obtain the devi
 
 ### 2.FireWallSetting for LookingGlass App  
 When running the Windows version of the Looking Glass app for the first time, a dialog will appear asking whether to allow the app to connect to the network.  
-If this appears within the Looking Glass display, the text may be very difficult to read, but please **CLICK the BUTTON on the LEFT**　to allow the connection.  
+If this appears within the Looking Glass display, the text may be very difficult to read, but please **CLICK the BUTTON on the LEFT** to allow internet connection.  
 If you accidentally click the button on the right, please remove "holotuberkit.exe" from the application list of Windows firewall.  
 <img src="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/blob/master/images/FireWallSetting.png?raw=true" alt="Firewall Setting" width="360"/>
 
