@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HoloTuberKit</title>
-<meta name="description" content="HoloTuberKit: real-time 3D streaming. Capture with an iPhone or iPad, watch as a live point cloud on iOS, Meta Quest and XREAL.">
+<title>HoloTuberKit — Share your world. Live, in 3D.</title>
+<meta name="description" content="Stream yourself, objects or the space around you from an iPhone or iPad. Viewers see the live capture in their own space on iOS, Meta Quest or XREAL.">
 <meta property="og:title" content="HoloTuberKit">
-<meta property="og:description" content="Real-time 3D streaming from iPhone / iPad to iOS, Meta Quest and XREAL.">
+<meta property="og:description" content="Share people and places as live 3D captures. Send from an iPhone or iPad; view in your own space on iOS, Meta Quest or XREAL.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://holotuberkit.github.io/HoloTuberKit-RealTime/">
 <meta property="og:site_name" content="HoloTuberKit">
@@ -16,7 +16,7 @@
 <meta property="og:image:alt" content="HoloTuberKit: real-time 3D streaming from iPhone and iPad to iOS, Meta Quest and XREAL">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="HoloTuberKit">
-<meta name="twitter:description" content="Real-time 3D streaming from iPhone / iPad to iOS, Meta Quest and XREAL.">
+<meta name="twitter:description" content="Share people and places as live 3D captures. Send from an iPhone or iPad; view in your own space on iOS, Meta Quest or XREAL.">
 <meta name="twitter:image" content="https://holotuberkit.github.io/HoloTuberKit-RealTime/images/hero.jpg">
 <style>
   :root {
@@ -41,18 +41,25 @@
   }
   a { color: var(--accent); }
   img { max-width: 100%; height: auto; display: block; }
-  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
 
   header.nav { padding: 18px 0; }
   header.nav .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .brand { font-weight: 700; letter-spacing: .02em; font-size: 18px; }
-  header.nav nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 14px; }
+  header.nav nav { display: flex; gap: 20px; flex-wrap: wrap; }
+  header.nav nav a { color: var(--muted); text-decoration: none; font-size: 14px; }
   header.nav nav a:hover { color: var(--text); }
 
-  .hero { text-align: center; padding: 28px 0 40px; }
-  .hero h1 { font-size: clamp(34px, 6vw, 56px); margin: 0 0 8px; letter-spacing: .01em; }
-  .hero p.lead { color: var(--muted); font-size: clamp(16px, 2.2vw, 20px); max-width: 640px; margin: 0 auto 28px; }
-  .hero img { border-radius: 18px; border: 1px solid var(--line); box-shadow: 0 20px 60px rgba(0, 0, 0, .5); margin: 0 auto; }
+  .hero { text-align: center; padding-top: 40px; padding-bottom: 40px; }
+  .hero .eyebrow { color: var(--cyan); margin: 0 0 16px; }
+  .hero h1 { font-size: clamp(36px, 5vw, 56px); line-height: 1.12; margin: 0 0 24px; letter-spacing: -.035em; }
+  .hero h1 span { color: var(--cyan); }
+  .hero p.lead { color: var(--muted); font-size: 19px; max-width: 720px; margin: 0 auto 24px; }
+  .hero p.lead strong { color: var(--text); font-weight: 500; }
+  .hero-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero .note { margin: 16px 0 0; }
+  .hero figure { margin: 32px 0 0; }
+  .hero img { width: 100%; border-radius: 24px; border: 1px solid var(--line); box-shadow: 0 20px 60px rgba(0, 0, 0, .35); }
 
   section { padding: 44px 0; }
   h2 { font-size: 28px; margin: 0 0 6px; }
@@ -62,6 +69,7 @@
 
   .grid { display: grid; gap: 16px; }
   .grid.three { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; display: flex; flex-direction: column; }
   .card h3 { margin-top: 0; }
   .card p { color: var(--muted); margin: 6px 0 16px; }
@@ -70,6 +78,15 @@
   .card .btn { margin-top: auto; }
   .tag.send { color: var(--cyan); background: rgba(47, 208, 255, .12); }
   .tag.recv { color: var(--green); background: rgba(56, 217, 150, .12); }
+  .card .camera-detail { font-size: 14px; margin-top: auto; margin-bottom: 0; }
+  .connection { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 24px; margin-top: 28px; }
+  .connection p { color: var(--muted); margin: 4px 0 0; }
+  .connection strong { display: block; font-size: 18px; }
+  .connection-arrow { color: var(--cyan); font-size: 28px; }
+  .download-intro { margin: 28px 0 20px; padding-left: 18px; border-left: 3px solid var(--cyan); }
+  .download-intro h3 { margin: 0 0 4px; }
+  .download-intro p { color: var(--muted); margin: 0; }
+  .table-scroll { overflow-x: auto; }
 
   .btn {
     display: inline-block; text-decoration: none; font-weight: 700; font-size: 15px;
@@ -92,11 +109,11 @@
   .steps b { color: var(--text); }
   .steps p { margin: 4px 0 0; color: var(--muted); }
 
-  .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; align-items: start; }
+  .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 16px; align-items: start; }
   .shots figure { margin: 0; }
   .shots img { border-radius: 16px; border: 1px solid var(--line); }
   .shots figcaption { color: var(--muted); font-size: 14px; margin-top: 8px; text-align: center; }
-  .shots.phone { grid-template-columns: repeat(auto-fit, minmax(200px, 260px)); }
+  .shots.phone { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 260px)); }
 
   .callout { border-left: 4px solid var(--violet); background: rgba(154, 130, 255, .08); border-radius: 0 14px 14px 0; padding: 14px 18px; margin: 20px 0; }
   .callout.warn { border-color: #ffb454; background: rgba(255, 180, 84, .08); }
@@ -112,6 +129,17 @@
 
   footer { padding: 40px 0 60px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
   footer a { color: var(--muted); }
+  a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 5px; }
+  @media (max-width: 700px) {
+    .hero { padding-top: 28px; padding-bottom: 32px; }
+    .grid.two { grid-template-columns: 1fr; }
+    .connection { grid-template-columns: 1fr; gap: 12px; }
+    .connection-arrow { transform: rotate(90deg); justify-self: start; }
+    section { padding: 32px 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
 </style>
 </head>
 <body>
@@ -119,8 +147,9 @@
 <header class="nav">
   <div class="wrap">
     <div class="brand">HoloTuberKit</div>
-    <nav>
-      <a href="#download">Download</a>
+    <nav aria-label="Main navigation">
+      <a href="#demo">Demo</a>
+      <a href="#download">Get the apps</a>
       <a href="#how-to-use">How to use</a>
       <a href="#xreal">XREAL setup</a>
       <a href="#faq">Known issues</a>
@@ -130,82 +159,126 @@
 
 <main>
   <div class="wrap hero">
-    <h1>HoloTuberKit</h1>
-    <p class="lead">Real-time 3D streaming. Capture with an iPhone or iPad, and watch yourself, or a whole room, as a live point cloud in AR / MR.</p>
-    <a class="btn" href="#download">Download</a>
-    <a class="btn ghost" href="#how-to-use">How to use</a>
-    <p style="margin-top:32px"><img src="images/hero.jpg" alt="HoloTuberKit: point cloud streaming for iOS, Meta Quest and XREAL" width="1600" height="900"></p>
+    <div>
+      <p class="eyebrow">Real-time 3D streaming</p>
+      <h1>Share your world.<br><span>Live, in 3D.</span></h1>
+      <p class="lead">Use your iPhone or iPad to stream <strong>yourself, an object or the space around you.</strong> Viewers see the live capture in their own space, and can move around it to see it from different angles.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#demo">Watch the demo</a>
+        <a class="btn ghost" href="#download">Get the apps</a>
+      </div>
+      <p class="note">Send from iPhone / iPad. View on iOS, Meta Quest or XREAL.</p>
+    </div>
+    <figure>
+      <img src="images/hero.jpg" alt="HoloTuberKit: an illustrated person wearing XR glasses dissolves into a point cloud, alongside an introduction to real-time 3D streaming" width="1600" height="900" fetchpriority="high">
+    </figure>
   </div>
+
+  <section id="demo">
+    <div class="wrap">
+      <div class="eyebrow">See the experience</div>
+      <h2>From a camera to your space.</h2>
+      <p class="sub">See what a live 3D capture looks like in HoloTuberKit.</p>
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/xyBUgFPRbb8" title="HoloTuberKit v2 demo" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
 
   <section id="about">
     <div class="wrap">
-      <div class="eyebrow">How it works</div>
-      <h2>Capture. Stream. See it in 3D.</h2>
-      <p class="sub">One phone sends. Any receiver shows it, at the same time.</p>
-      <div class="grid three">
+      <div class="eyebrow">What you can share</div>
+      <h2>Share yourself or your surroundings.</h2>
+      <p class="sub">Choose a camera to suit what you want to show. HoloTuberKit captures both color and depth, so viewers see a live 3D shape made of colored dots, called a <b>point cloud</b>.</p>
+      <div class="grid two">
         <div class="card">
-          <span class="tag send">Send</span>
-          <h3>Capture with iOS</h3>
-          <p>The <b>TrueDepth</b> camera (front) captures faces and upper bodies. The <b>LiDAR</b> scanner (rear) captures rooms and objects.</p>
+          <span class="tag send">Front camera · TrueDepth</span>
+          <h3>Share yourself</h3>
+          <p>Capture your face and upper body as you move. Viewers can place your live 3D capture in their space.</p>
+          <p class="camera-detail">Requires an iPhone or iPad with a TrueDepth camera.</p>
         </div>
         <div class="card">
-          <span class="tag send">Stream</span>
-          <h3>Connection ID</h3>
-          <p>Color and depth are sent in real time over WebRTC. You choose a Connection ID; anyone who enters it can watch.</p>
-        </div>
-        <div class="card">
-          <span class="tag recv">Receive</span>
-          <h3>Watch as a point cloud</h3>
-          <p>Receive on iOS (ARKit), Meta Quest, or XREAL glasses, and walk around the live point cloud.</p>
+          <span class="tag send">Rear camera · LiDAR</span>
+          <h3>Show what’s around you</h3>
+          <p>Point the rear camera at an object or part of a room to share its shape, color and movement in real time.</p>
+          <p class="camera-detail">Requires an iPhone Pro or iPad Pro with a LiDAR scanner.</p>
         </div>
       </div>
-      <div class="shots phone" style="margin-top:28px">
-        <figure><img src="images/ios-home.jpg" alt="Home screen" loading="lazy"><figcaption>Choose Send or Receive</figcaption></figure>
-        <figure><img src="images/ios-send.jpg" alt="Sending with TrueDepth" loading="lazy"><figcaption>Sending (TrueDepth)</figcaption></figure>
-        <figure><img src="images/ios-receive.jpg" alt="Receiving in AR" loading="lazy"><figcaption>Receiving in AR</figcaption></figure>
+      <p class="note">Each capture shows the surfaces visible to the camera.</p>
+
+      <h3>One device captures. Others watch.</h3>
+      <p class="sub">The sending device chooses a <b>Connection ID</b>. Viewers enter that same ID in their app to join the live stream. More than one viewer can connect at the same time.</p>
+      <div class="connection" aria-label="An iPhone or iPad sends a live 3D stream to iOS, Meta Quest or XREAL using the same Connection ID">
+        <div>
+          <span class="tag send">Sender</span>
+          <strong>iPhone / iPad</strong>
+          <p>Captures and streams in 3D</p>
+        </div>
+        <span class="connection-arrow" aria-hidden="true">→</span>
+        <div>
+          <span class="tag recv">Receivers</span>
+          <strong>iOS · Meta Quest · XREAL</strong>
+          <p>Display the live capture in your space</p>
+        </div>
       </div>
+      <p class="note">Both sides need an Internet connection. Anyone with the Connection ID can watch, so share it only with your intended viewers.</p>
     </div>
   </section>
 
   <section id="download">
     <div class="wrap">
-      <div class="eyebrow">Download</div>
-      <h2>Get the apps</h2>
-      <p class="sub">You need one sender (iPhone / iPad) and one or more receivers.</p>
+      <div class="eyebrow">Get started</div>
+      <h2>One device to send. Another to view.</h2>
+      <p class="sub">You’ll need at least two devices. For example, send from an iPhone and view on a Meta Quest, or use a second iPhone or iPad to view in AR.</p>
+      <div class="download-intro">
+        <h3>1. Install the iOS app on the sending device</h3>
+        <p>Use an iPhone or iPad with TrueDepth or LiDAR. The iOS app below includes both sending and viewing.</p>
+      </div>
+      <div class="download-intro">
+        <h3>2. Get the app for each viewing device</h3>
+        <p>Choose from iPhone / iPad, Meta Quest or XREAL below.</p>
+      </div>
       <div class="grid three">
         <div class="card">
           <span class="tag send">Send + Receive</span>
           <h3>iPhone / iPad</h3>
-          <p>The iOS app has both the Sender and the Receiver. iOS 15 or later.</p>
+          <p>Use this app on the sending device, or on another iPhone or iPad to view the stream in AR. iOS 15 or later.</p>
           <a class="btn" href="https://apps.apple.com/jp/app/holotuberkit/id6449902663">App Store</a>
         </div>
         <div class="card">
           <span class="tag recv">Receive</span>
           <h3>Meta Quest</h3>
-          <p>Quest 2, Quest Pro, Quest 3 and Quest 3S.</p>
+          <p>View the live capture in mixed reality on Quest 2, Quest Pro, Quest 3 or Quest 3S.</p>
           <a class="btn" href="https://www.meta.com/s/6tzXXzKuJ">Meta Quest (beta)</a>
         </div>
         <div class="card">
           <span class="tag recv">Receive</span>
-          <h3>XREAL + Beam Pro</h3>
-          <p>XREAL glasses connected to an XREAL Beam Pro. Other Android phones, such as Galaxy, are no longer supported. Install the APK, then follow the <a href="#xreal">first-time setup</a>.</p>
+          <h3>XREAL Air 2 Ultra</h3>
+          <p>View with XREAL Air 2 Ultra glasses connected to a Beam Pro. Install the APK on Beam Pro, then follow the <a href="#xreal">first-time setup</a>.</p>
           <a class="btn" href="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit_XREAL-1_2_0.apk">Download APK</a>
         </div>
       </div>
       <div class="callout">
-        <strong>Quest and XREAL users:</strong> update the iOS app to the latest version. It adds LiDAR support, and the receivers are built to match it.
+        <strong>Sending to Quest or XREAL?</strong> Update the sending iPhone or iPad to the latest HoloTuberKit app. These receivers require the iOS version with LiDAR support.
       </div>
 
-      <h3>Requirements</h3>
+      <h3>Check your devices</h3>
+      <div class="table-scroll">
       <table>
+        <caption class="note" style="text-align:left">Camera and device requirements for sending and viewing</caption>
+        <thead>
         <tr><th>Role</th><th>Device</th></tr>
-        <tr><td>Sender (TrueDepth)</td><td>iPhone X or newer / iPad Pro. iOS 15 or later.</td></tr>
+        </thead>
+        <tbody>
+        <tr><td>Sender (TrueDepth)</td><td>iPhone or iPad with a TrueDepth camera. iOS 15 or later.</td></tr>
         <tr><td>Sender (LiDAR)</td><td>iPhone Pro / iPad Pro with a LiDAR scanner. iOS 15 or later.</td></tr>
         <tr><td>Receiver: iOS</td><td>A device that supports ARKit. iOS 15 or later.</td></tr>
         <tr><td>Receiver: Meta Quest</td><td>Quest 2, Quest Pro, Quest 3, Quest 3S.</td></tr>
         <tr><td>Receiver: XREAL</td><td>XREAL Air 2 Ultra (hand tracking is used) with an XREAL Beam Pro. Other Android phones, such as Galaxy, are no longer supported.</td></tr>
+        </tbody>
       </table>
-      <p class="note">Both the sender and the receiver need an Internet connection.</p>
+      </div>
+      <p class="note">Ready? Follow the <a href="#how-to-use">send and receive steps</a> below to connect your devices.</p>
     </div>
   </section>
 
@@ -213,6 +286,12 @@
     <div class="wrap">
       <div class="eyebrow">How to use</div>
       <h2>Send and receive</h2>
+
+      <div class="shots phone" style="margin-top:24px; margin-bottom:28px">
+        <figure><img src="images/ios-home.jpg" alt="Home screen" loading="lazy"><figcaption>Choose Send or Receive</figcaption></figure>
+        <figure><img src="images/ios-send.jpg" alt="Sending with TrueDepth" loading="lazy"><figcaption>Sending (TrueDepth)</figcaption></figure>
+        <figure><img src="images/ios-receive.jpg" alt="A live 3D capture of a person viewed in AR" loading="lazy"><figcaption>Receiving in AR</figcaption></figure>
+      </div>
 
       <h3>1. Sender (iOS)</h3>
       <ol class="steps">
@@ -258,17 +337,6 @@
       <div class="callout warn">
         <strong>If hand tracking does not work.</strong> On the very first launch, hand tracking may fail, so you cannot interact and the hand object does not appear at your hand position.
         In that case, <strong>disconnect the XREAL glasses from the XREAL Beam Pro (just unplug the USB cable), connect them again, and launch the app again.</strong>
-      </div>
-    </div>
-  </section>
-
-  <section id="demo">
-    <div class="wrap">
-      <div class="eyebrow">Demo</div>
-      <h2>See it in action</h2>
-      <p class="sub">A demo video on YouTube.</p>
-      <div class="video">
-        <iframe src="https://www.youtube-nocookie.com/embed/xyBUgFPRbb8" title="HoloTuberKit v2 demo" loading="lazy" allowfullscreen></iframe>
       </div>
     </div>
   </section>
