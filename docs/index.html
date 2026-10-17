@@ -62,10 +62,12 @@
 
   .grid { display: grid; gap: 16px; }
   .grid.three { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px; display: flex; flex-direction: column; }
   .card h3 { margin-top: 0; }
   .card p { color: var(--muted); margin: 6px 0 16px; }
   .tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; margin-bottom: 10px; }
+  .card .tag, .card .btn { align-self: flex-start; }
+  .card .btn { margin-top: auto; }
   .tag.send { color: var(--cyan); background: rgba(47, 208, 255, .12); }
   .tag.recv { color: var(--green); background: rgba(56, 217, 150, .12); }
 
@@ -188,7 +190,6 @@
           <h3>XREAL + Beam Pro</h3>
           <p>XREAL glasses connected to an XREAL Beam Pro. Other Android phones, such as Galaxy, are no longer supported. Install the APK, then follow the <a href="#xreal">first-time setup</a>.</p>
           <a class="btn" href="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit_XREAL-1_2_0.apk">Download APK</a>
-          <p class="note" style="margin:10px 0 0">All releases: <a href="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases">GitHub Releases</a></p>
         </div>
       </div>
       <div class="callout">
