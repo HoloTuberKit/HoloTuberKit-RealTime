@@ -14,7 +14,7 @@ Web page: https://holotuberkit.github.io/HoloTuberKit-RealTime/
 | --- | --- | --- |
 | **Sender** (capture) and **Receiver** | iPhone / iPad | [App Store](https://apps.apple.com/jp/app/holotuberkit/id6449902663) |
 | **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ) |
-| **Receiver** | XREAL glasses + XREAL Beam Pro | [APK (GitHub Releases)](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/latest/download/HoloTuberKit-XREAL.apk) <!-- TODO: placeholder. Replace with the real APK link after the release is published. --> |
+| **Receiver** | XREAL glasses + XREAL Beam Pro | [APK (GitHub Releases)](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit_XREAL-1_2_0.apk) |
 
 The iOS app contains both the Sender and the Receiver.
 Quest and XREAL users need the **latest iOS app** (it adds LiDAR support).
