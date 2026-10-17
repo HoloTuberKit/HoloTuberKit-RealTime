@@ -36,7 +36,7 @@ Quest and XREAL users need the **latest iOS app** (it adds LiDAR support).
 - **Sender**: iPhone X or newer / iPad Pro for TrueDepth. iPhone Pro / iPad Pro with a LiDAR scanner for LiDAR. iOS 15 or later.
 - **iOS Receiver**: a device that supports ARKit. iOS 15 or later.
 - **Meta Quest Receiver**: Quest 2, Quest Pro, Quest 3 or Quest 3S.
-- **XREAL Receiver**: XREAL Air 2 Ultra (hand tracking is used) connected to an XREAL Beam Pro.
+- **XREAL Receiver**: XREAL Air 2 Ultra (hand tracking is used) connected to an XREAL Beam Pro. Other Android phones, such as Galaxy, are no longer supported.
 - Both devices need an Internet connection.
 
 ## How to use
