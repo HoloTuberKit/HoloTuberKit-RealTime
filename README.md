@@ -1,91 +1,85 @@
 # HoloTuberKit
-HoloTuberKit is a simple solution for volumetric video capture and AR visualization. I offer both capture and viewer apps compatible with various platforms:
 
-## Capture Apps Compatibility
-1. True Depth Camera(For iOS Devices. iPhoneX or newer / iPad Pro)<br>
-Open [AppStore](https://apps.apple.com/us/app/holotuberkit/id6449902663) to install the application.
+**Real-time 3D streaming.** Capture yourself (or a room) as a color + depth video on an iPhone / iPad, and watch it as a live point cloud in AR / MR on another device.
 
-2. Azure Kinect<br>
-(*)For Windows. Ensure to install [Azure Kinect Sensor SDK v1.4.1](https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md).
+<p align="center"><img src="docs/images/hero.jpg" alt="HoloTuberKit" width="640"></p>
 
-## Viewer Apps Compatibility
-1. XREAL(Nreal) Light
-2. Android Phone<br>
-(*)ARCore compatibility is required. Also make sure Developer mode is turned on.
-3. iPhone/iPad (ARKit compatibility is required)<br>
-(*)This will be included in the Sender app. [AppStore](https://apps.apple.com/us/app/holotuberkit/id6449902663) 
-4. Meta Quest<br>
-(*)Make sure Developer mode is turned on for your Meta Quest device.
-<br>See https://developer.oculus.com/documentation/native/android/mobile-device-setup/<br>
-Also, please use [SideQuest](https://sidequestvr.com) to install the application.
-5. LookingGlass Portrait / Go<br>
-(*)For Windows. Please install [LookingGlass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge).
-
-Check out the YouTube demo video for reference.
+Web page: https://holotuberkit.github.io/HoloTuberKit-RealTime/
 
 [![YouTube Video](https://img.youtube.com/vi/wJfHrD1ZOIo/0.jpg)](https://www.youtube.com/watch?v=wJfHrD1ZOIo)
-<br><br>
 
-# Download Page
-Visit [this link](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/tag/v1.3.0) for download.<br><br>
+## Download
 
-# How To Use
-## 1. Capture Application (Sender Side)
-### For Kinect User
-This application captures RGB and Depth images from Azure Kinect.
+| Role | Device | Get it |
+| --- | --- | --- |
+| **Sender** (capture) and **Receiver** | iPhone / iPad | [App Store](https://apps.apple.com/jp/app/holotuberkit/id6449902663) |
+| **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ) |
+| **Receiver** | XREAL glasses + XREAL Beam Pro | [APK (GitHub Releases)](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/latest/download/HoloTuberKit-XREAL.apk) <!-- TODO: placeholder. Replace with the real APK link after the release is published. --> |
 
-1. Connect Azure Kinect to your PC.
-2. Open the **HoloTuber_Server** folder.
-3. Run **HoloTuber_RtcServer.exe**.
-4. Enter a unique Streaming ID in the text field (Take care not to use an ID already in use by another user).
-5. Click the **Start** button.
-<br><img src="/images/01.png" alt="" width="400"><br><br>
-6. By following the above steps, capturing and streaming will be started.
-<br><img src="/images/02.png" alt="" width="400"><br><br>
-### For True Depth Camera User
-This application captures RGB and Depth images from the TrueDepth Camera of your iOS device.
+The iOS app contains both the Sender and the Receiver.
+Quest and XREAL users need the **latest iOS app** (it adds LiDAR support).
 
-1. Open the **HoloSender** app.
-2. Enter a unique Streaming ID in the text field (Take care not to use an ID already in use by another user).
-3. Tap the **Connect** button.
+## How it works
 
-Now, capturing and streaming are initiated.
+1. The **Sender** (iPhone / iPad) captures color and depth with the **TrueDepth** camera (front, for faces and upper bodies) or the **LiDAR** scanner (rear, for rooms and objects).
+2. The frames are streamed over WebRTC, identified by a **Connection ID** that you choose.
+3. A **Receiver** enters the same Connection ID and shows the stream as a live point cloud.
 
-## 2. Viewer Applications (Receiver Side)
-Here's how to operate the viewer applications:
+<p>
+<img src="docs/images/ios-home.jpg" alt="Home screen" width="240">
+<img src="docs/images/ios-send.jpg" alt="Sending" width="240">
+<img src="docs/images/ios-receive.jpg" alt="Receiving in AR" width="240">
+</p>
 
-1. Install the application on your device.
-   - ARCore/Nreal/Quest: Install the compatible **.apk**.
-   - LookingGlass: Unzip **LKG_WRTC_HoloTuberKit.zip**.
-   - iOS: Download the app from AppStore.
-2. Launch the application.
-   - Android/iOS/Nreal/Quest: Start HoloTuber(WRTC).
-   - LookingGlass: Run HoloTuberKit.exe.
-3. Enter the same Streaming ID that user of sender side entered in the capture app.
-4. Tap the **Connect** button or hit the **Enter Key** of the virtual keyboard.
+## Requirements
 
-Follow these steps to utilize the viewer applications effectively.
+- **Sender**: iPhone X or newer / iPad Pro for TrueDepth. iPhone Pro / iPad Pro with a LiDAR scanner for LiDAR. iOS 15 or later.
+- **iOS Receiver**: a device that supports ARKit. iOS 15 or later.
+- **Meta Quest Receiver**: Quest 2, Quest Pro, Quest 3 or Quest 3S.
+- **XREAL Receiver**: XREAL Air 2 Ultra (hand tracking is used) connected to an XREAL Beam Pro.
+- Both devices need an Internet connection.
 
-# Known Issue
-### 1.Connection Error  
-In highly secure network environments, it may not be possible to obtain the device's IP address, which can prevent point cloud streaming. In such cases, please use tethering from a smartphone or other means to stream.  
+## How to use
 
-### 2.FireWallSetting for LookingGlass App  
-When running the Windows version of the Looking Glass app for the first time, a dialog will appear asking whether to allow the app to connect to the network.  
-If this appears within the Looking Glass display, the text may be very difficult to read, but please **CLICK the BUTTON on the LEFT** to allow internet connection.  
-If you accidentally click the button on the right, please remove "holotuberkit.exe" from the application list of Windows firewall.  
-<img src="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/blob/master/images/FireWallSetting.png?raw=true" alt="Firewall Setting" width="360"/>
+### 1. Sender (iOS)
 
+1. Open **HoloTuberKit** and choose **TrueDepth** or **LiDAR** under **SEND**.
+2. Enter a unique **Connection ID**. Take care not to use an ID that another user is already using.
+3. Tap **Connect**. Capturing and streaming start, and the screen shows how many viewers are connected.
+4. Close the app to stop streaming.
 
-# Give Me Your Feedback
-I'm glad if you'll give me feedback, or tag me or use hash tag, #HoloTuberKit, when you share the video of your experience on social media or other web-media.<br><br>
-<b>Contact Me</b><br>
-Twitter: @Tks_Yoshinaga (https://twitter.com/Tks_Yoshinaga or https://twitter.com/Taka_Yoshinaga)<br>
-LinkedIn: Takashi Yoshinaga (https://www.linkedin.com/in/tks-yoshinaga/?locale=en_US)<br>
+### 2. Receiver
 
-# Join Our Discord Server
-There is the channel of HoloTuber Kit on Discord of AR_Fukuoka.<br>
-Feel free to join us!<br>
-https://discord.gg/XzrPmgGbfn
-<br><br>
-<br>
+Enter the same Connection ID and connect.
+
+- **iOS**: choose **Receiver** on the home screen, enter the ID and tap **Connect**.
+- **Meta Quest**: launch the app and press **Connect** on the panel attached to your left controller. Type the ID in the window that appears, then press **Connect** again. Use **Manipulation: ON** to move and rotate the point cloud (grab it with the controller ray; the thumbstick rotates it around the vertical axis).
+- **XREAL**: see below. Enter the ID on the Beam Pro screen and tap **Connect**.
+
+## XREAL: first-time setup
+
+1. **Allow "Display over other apps".** After installing, launch the app. The Android settings screen for *Display over other apps* appears (step 1). Select **HoloTuberKit**, turn on **Allow display over other apps** (step 2), then press the back button.
+
+   <img src="docs/images/xreal-step1.png" alt="Step 1" width="240"> <img src="docs/images/xreal-step2.png" alt="Step 2" width="240">
+
+2. **Allow the microphone.** The first time the app starts, a permission dialog appears (step 3). Choose **While using the app**.
+
+   <img src="docs/images/xreal-step3.png" alt="Step 3" width="240">
+
+3. **If hand tracking does not work.** On the very first launch, hand tracking may fail, so you cannot interact and no hand object appears at your hand position. In that case, **disconnect the XREAL glasses from the XREAL Beam Pro (just unplug the USB cable), connect them again, and launch the app again.**
+
+## Known issues
+
+- **Connection error.** In highly secure network environments the device's IP address cannot be obtained, and the point cloud cannot be streamed. Use tethering from a smartphone or another network.
+
+## Privacy
+
+See [Privacy](Privacy/README.md).
+
+## Feedback
+
+I'm glad to get feedback. Tag me or use the hash tag **#HoloTuberKit** when you share a video of your experience.
+
+- X (Twitter): [@Tks_Yoshinaga](https://twitter.com/Tks_Yoshinaga)
+- LinkedIn: [Takashi Yoshinaga](https://www.linkedin.com/in/tks-yoshinaga/?locale=en_US)
+- Discord: the HoloTuberKit channel of AR_Fukuoka: https://discord.gg/XzrPmgGbfn
