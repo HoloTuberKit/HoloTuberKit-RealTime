@@ -6,7 +6,7 @@
 
 Web page: https://holotuberkit.github.io/HoloTuberKit-RealTime/
 
-[![YouTube Video](https://img.youtube.com/vi/wJfHrD1ZOIo/0.jpg)](https://www.youtube.com/watch?v=wJfHrD1ZOIo)
+[![HoloTuberKit v2 demo video](https://img.youtube.com/vi/xyBUgFPRbb8/maxresdefault.jpg)](https://youtu.be/xyBUgFPRbb8)
 
 ## Download
 
