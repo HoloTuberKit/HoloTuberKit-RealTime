@@ -78,6 +78,8 @@
   .tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; margin-bottom: 10px; }
   .card .tag, .card .btn { align-self: flex-start; }
   .card .btn { margin-top: auto; }
+  .card-actions { display: flex; flex-direction: column; gap: 10px; margin-top: auto; }
+  .card-actions .btn { align-self: stretch; margin-top: 0; text-align: center; }
   .tag.send { color: var(--accent); background: var(--accent-soft); }
   .tag.recv { color: #434c51; background: #edf0ed; }
   .card .camera-detail { font-size: 14px; margin-top: auto; margin-bottom: 0; }
@@ -283,7 +285,10 @@
           <span class="tag recv">Video Passthrough</span>
           <h3>Meta Quest</h3>
           <p>View the live capture in AR on Quest 2, Quest Pro, Quest 3 or Quest 3S. Sign-in with your Meta account is required, because the app is distributed as a beta test.</p>
-          <a class="btn" href="https://www.meta.com/s/6tzXXzKuJ">Meta Quest (beta)</a>
+          <div class="card-actions">
+            <a class="btn" href="https://www.meta.com/s/6tzXXzKuJ">Meta Quest (beta)</a>
+            <a class="btn ghost" href="https://x.com/Tks_Yoshinaga">Contact me on X</a>
+          </div>
         </div>
         <div class="card">
           <span class="tag recv">Optical See-through</span>
