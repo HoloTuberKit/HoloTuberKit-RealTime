@@ -14,10 +14,11 @@ Web page: https://holotuberkit.github.io/HoloTuberKit-RealTime/
 | --- | --- | --- |
 | **Sender** (capture) and **Receiver** | iPhone / iPad | [App Store](https://apps.apple.com/jp/app/holotuberkit/id6449902663) |
 | **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ) |
+| **Receiver** | Android XR: XREAL Aura / Galaxy XR | [APK (GitHub Releases)](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit-AndroidXR.apk) |
 | **Receiver** | XREAL glasses + XREAL Beam Pro | [APK (GitHub Releases)](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit_XREAL-1_2_0.apk) |
 
 The iOS app contains both the Sender and the Receiver.
-Quest and XREAL users need the **latest iOS app** (it adds LiDAR support).
+Quest, Android XR and XREAL users need the **latest iOS app** (it adds LiDAR support).
 
 ## How it works
 
@@ -36,6 +37,7 @@ Quest and XREAL users need the **latest iOS app** (it adds LiDAR support).
 - **Sender**: iPhone X or newer / iPad Pro for TrueDepth. iPhone Pro / iPad Pro with a LiDAR scanner for LiDAR. iOS 15 or later.
 - **iOS Receiver**: a device that supports ARKit. iOS 15 or later.
 - **Meta Quest Receiver**: Quest 2, Quest Pro, Quest 3 or Quest 3S. Sign-in with the Meta account used on your Quest is required, because the app is distributed as a beta test.
+- **Android XR Receiver**: XREAL Aura or Galaxy XR (hand tracking is used).
 - **XREAL Receiver**: XREAL Air 2 Ultra (hand tracking is used) connected to an XREAL Beam Pro. Other Android phones, such as Galaxy, are no longer supported.
 - Both devices need an Internet connection.
 
@@ -54,7 +56,18 @@ Enter the same Connection ID and connect.
 
 - **iOS**: choose **Receiver** on the home screen, enter the ID and tap **Connect**.
 - **Meta Quest**: launch the app and press **Connect** on the panel attached to your left controller. Type the ID in the window that appears, then press **Connect** again. Use **Manipulation: ON** to move and rotate the point cloud (grab it with the controller ray; the thumbstick rotates it around the vertical axis).
+- **Android XR** (XREAL Aura / Galaxy XR): see [Android XR: first-time setup](#android-xr-first-time-setup). Pinch or poke the ID field, type the ID with the spatial keyboard and press **Connect**. The panel hides when the point cloud appears; hold up your left hand and press the **Menu** button next to your wrist to show it again. Use **Manipulation: ON** to move the point cloud: pinch the handle to grab it, and use both hands to scale it. It rotates around the vertical axis.
 - **XREAL**: see below. Enter the ID on the Beam Pro screen and tap **Connect**.
+
+## Android XR: first-time setup
+
+For XREAL Aura and Galaxy XR. Only needed the first time you run the app.
+
+1. **Install the APK.** Download the APK from [GitHub Releases](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit-AndroidXR.apk) and install it with adb: `adb install -r HoloTuberKit-AndroidXR.apk`. Turn on developer options and USB (or wireless) debugging on the device first.
+2. **Allow hand tracking.** When the app starts, a permission dialog asks to allow hand tracking. Allow it. The app is operated with your hands: pinch to press and grab.
+3. **Allow the microphone.** The first time you press **Connect**, a permission dialog appears. Allow it.
+
+**The Menu button.** Hold your left hand in front of you: a small **Menu** button appears next to your wrist. Press it to show or hide the panel (ID field, Connect / Disconnect, Manipulation). The panel hides itself when the point cloud appears.
 
 ## XREAL: first-time setup
 

@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HoloTuberKit | Remote conversations. In live 3D.</title>
-<meta name="description" content="Connect with someone far away through a live 3D capture of yourself or your surroundings. Send from iPhone or iPad; view on iOS, Meta Quest or XREAL.">
+<meta name="description" content="Connect with someone far away through a live 3D capture of yourself or your surroundings. Send from iPhone or iPad; view on iOS, Meta Quest, Android XR or XREAL.">
 <meta property="og:title" content="HoloTuberKit">
-<meta property="og:description" content="A new dimension to remote conversations. Share a live 3D capture of yourself or what’s around you, from iPhone or iPad to iOS, Meta Quest or XREAL.">
+<meta property="og:description" content="A new dimension to remote conversations. Share a live 3D capture of yourself or what’s around you, from iPhone or iPad to iOS, Meta Quest, Android XR or XREAL.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://holotuberkit.github.io/HoloTuberKit-RealTime/">
 <meta property="og:site_name" content="HoloTuberKit">
@@ -17,7 +17,7 @@
 <meta property="og:image:alt" content="HoloTuberKit: AR 3D Call. Feel closer. A person wearing XR glasses rendered as a cloud of points.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="HoloTuberKit">
-<meta name="twitter:description" content="A new dimension to remote conversations. Share a live 3D capture of yourself or what’s around you, from iPhone or iPad to iOS, Meta Quest or XREAL.">
+<meta name="twitter:description" content="A new dimension to remote conversations. Share a live 3D capture of yourself or what’s around you, from iPhone or iPad to iOS, Meta Quest, Android XR or XREAL.">
 <meta name="twitter:image" content="https://holotuberkit.github.io/HoloTuberKit-RealTime/images/og-card.jpg">
 <meta name="twitter:image:alt" content="HoloTuberKit: AR 3D Call. Feel closer. A person wearing XR glasses rendered as a cloud of points.">
 <style>
@@ -196,7 +196,7 @@
           <a class="btn" href="#demo">Watch the demo</a>
           <a class="btn ghost" href="#download">Get the apps</a>
         </div>
-        <p class="note">Capture on iPhone / iPad.<br>View on iOS, Meta Quest or XREAL.</p>
+        <p class="note">Capture on iPhone / iPad.<br>View on iOS, Meta Quest, Android XR or XREAL.</p>
       </div>
       <figure class="hero-visual">
         <img src="images/hero-illustration.jpg" alt="A person wearing XR glasses, rendered as a cloud of points" width="1672" height="941" fetchpriority="high">
@@ -236,7 +236,7 @@
       </div>
       <p class="note">The camera captures color and depth. The other person sees a live 3D shape made of colored dots, called a <b>point cloud</b>. Each capture shows the surfaces visible to the camera.</p>
 
-      <div class="connection" aria-label="An iPhone or iPad sends a live 3D stream to iOS, Meta Quest or XREAL using the same Connection ID">
+      <div class="connection" aria-label="An iPhone or iPad sends a live 3D stream to iOS, Meta Quest, Android XR or XREAL using the same Connection ID">
         <div>
           <span class="tag send">Your side · Send</span>
           <strong>iPhone / iPad</strong>
@@ -245,7 +245,7 @@
         <span class="connection-arrow" aria-hidden="true">→</span>
         <div>
           <span class="tag recv">Their side · View</span>
-          <strong>iOS · Meta Quest · XREAL</strong>
+          <strong>iOS · Meta Quest · Android XR · XREAL</strong>
           <p>See the live capture in their space</p>
         </div>
       </div>
@@ -291,6 +291,12 @@
           </div>
         </div>
         <div class="card">
+          <span class="tag recv">Android XR</span>
+          <h3>XREAL Aura · Galaxy&nbsp;XR</h3>
+          <p>View the live capture in AR on Android XR glasses and headsets. Hand tracking is used. Install the APK, then follow the <a href="#androidxr">first-time setup</a>.</p>
+          <a class="btn" href="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit-AndroidXR.apk">Download APK</a>
+        </div>
+        <div class="card">
           <span class="tag recv">Optical See-through</span>
           <h3>XREAL Air 2 Ultra</h3>
           <p>View with XREAL Air 2 Ultra glasses connected to a Beam Pro. Install the APK on Beam Pro, then follow the <a href="#xreal">first-time setup</a>.</p>
@@ -312,6 +318,7 @@
         <tr><td>Sender (LiDAR)</td><td>iPhone Pro / iPad Pro with a LiDAR scanner. iOS 15 or later.</td></tr>
         <tr><td>Receiver: iOS</td><td>A device that supports ARKit. iOS 15 or later.</td></tr>
         <tr><td>Receiver: Meta Quest</td><td>Quest 2, Quest Pro, Quest 3, Quest 3S. Sign-in with the Meta account used on your Quest is required, because the app is distributed as a beta test.</td></tr>
+        <tr><td>Receiver: Android XR</td><td>XREAL Aura or Galaxy XR (hand tracking is used).</td></tr>
         <tr><td>Receiver: XREAL</td><td>XREAL Air 2 Ultra (hand tracking is used) with an XREAL Beam Pro. Other Android phones, such as Galaxy, are no longer supported.</td></tr>
         </tbody>
       </table>
@@ -353,8 +360,36 @@
           </details>
         </li>
         <li><b>Meta Quest</b><p>Press <b>Connect</b> on the panel attached to your left controller. Type the ID in the window that appears, then press <b>Connect</b> again. Turn <b>Manipulation</b> on to move and rotate the point cloud: grab it with the controller ray, and tilt the thumbstick left or right to rotate it around the vertical axis.</p></li>
+        <li><b>Android XR</b><p>Complete the <a href="#androidxr">first-time setup</a>. Pinch or poke the ID field, type the ID with the spatial keyboard and press <b>Connect</b>. The panel hides when the point cloud appears: hold up your left hand and press the <b>Menu</b> button next to your wrist to show it again. Turn <b>Manipulation</b> on to move the point cloud: pinch the handle to grab it, and use both hands to scale it. It rotates around the vertical axis.</p></li>
         <li><b>XREAL</b><p>Complete the <a href="#xreal">first-time setup</a>, enter the ID on the Beam Pro screen and tap <b>Connect</b>. Use your hands to move and scale the point cloud.</p></li>
       </ul>
+    </div>
+  </section>
+
+  <section id="androidxr">
+    <div class="wrap">
+      <div class="eyebrow">Android XR</div>
+      <h2>First-time setup</h2>
+      <p class="sub">For XREAL Aura and Galaxy XR. Only needed the first time you run the app.</p>
+
+      <ol class="steps">
+        <li>
+          <b>Install the APK.</b>
+          <p>Download the APK from <a href="https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit-AndroidXR.apk">GitHub Releases</a> and install it with adb: <code>adb install -r HoloTuberKit-AndroidXR.apk</code>. Turn on developer options and USB (or wireless) debugging on the device first.</p>
+        </li>
+        <li>
+          <b>Allow hand tracking.</b>
+          <p>When the app starts, a permission dialog asks to allow hand tracking. Allow it. The app is operated with your hands: pinch to press and grab.</p>
+        </li>
+        <li>
+          <b>Allow the microphone.</b>
+          <p>The first time you press <b>Connect</b>, a permission dialog appears. Allow it.</p>
+        </li>
+      </ol>
+
+      <div class="callout">
+        <strong>The Menu button.</strong> Hold your left hand in front of you: a small <b>Menu</b> button appears next to your wrist. Press it to show or hide the panel (ID field, Connect / Disconnect, Manipulation). The panel hides itself when the point cloud appears.
+      </div>
     </div>
   </section>
 
