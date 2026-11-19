@@ -13,7 +13,7 @@ Web page: https://holotuberkit.github.io/HoloTuberKit-RealTime/
 | Role | Device | Get it |
 | --- | --- | --- |
 | **Sender** (capture) and **Receiver** | iPhone / iPad | [App Store](https://apps.apple.com/jp/app/holotuberkit/id6449902663) |
-| **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ) · Message me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
+| **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ)<br>Message me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
 | **Receiver** | Android XR: XREAL Aura / Galaxy XR | Ask for the APK on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
 | **Receiver** | XREAL glasses + XREAL Beam Pro | Ask for the APK on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
 
