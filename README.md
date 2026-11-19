@@ -13,9 +13,9 @@ Web page: https://holotuberkit.github.io/HoloTuberKit-RealTime/
 | Role | Device | Get it |
 | --- | --- | --- |
 | **Sender** (capture) and **Receiver** | iPhone / iPad | [App Store](https://apps.apple.com/jp/app/holotuberkit/id6449902663) |
-| **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ) · Contact me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
-| **Receiver** | Android XR: XREAL Aura / Galaxy XR | Contact me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
-| **Receiver** | XREAL glasses + XREAL Beam Pro | Contact me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
+| **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ) · Message me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
+| **Receiver** | Android XR: XREAL Aura / Galaxy XR | Ask for the APK on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
+| **Receiver** | XREAL glasses + XREAL Beam Pro | Ask for the APK on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) |
 
 The iOS app contains both the Sender and the Receiver.
 Quest, Android XR and XREAL users need the **latest iOS app** (it adds LiDAR support).
@@ -63,7 +63,7 @@ Enter the same Connection ID and connect.
 
 For XREAL Aura and Galaxy XR. Only needed the first time you run the app.
 
-1. **Install the APK.** Contact me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) to get the APK and install it with adb: `adb install -r HoloTuberKit-AndroidXR.apk`. Turn on developer options and USB (or wireless) debugging on the device first.
+1. **Install the APK.** Ask for the APK on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/), then install it with adb: `adb install -r HoloTuberKit-AndroidXR.apk`. Turn on developer options and USB (or wireless) debugging on the device first.
 2. **Allow hand tracking.** When the app starts, a permission dialog asks to allow hand tracking. Allow it. The app is operated with your hands: pinch to press and grab.
 3. **Allow the microphone.** The first time you press **Connect**, a permission dialog appears. Allow it.
 
@@ -71,7 +71,7 @@ For XREAL Aura and Galaxy XR. Only needed the first time you run the app.
 
 ## XREAL: first-time setup
 
-Contact me on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/) to get the APK and install it on your XREAL Beam Pro.
+Ask for the APK on [X](https://x.com/Tks_Yoshinaga) or [LinkedIn](https://www.linkedin.com/in/tks-yoshinaga/), then install it on your XREAL Beam Pro.
 
 1. **Allow "Display over other apps".** After installing, launch the app. The Android settings screen for *Display over other apps* appears (step 1). Select **HoloTuberKit**, turn on **Allow display over other apps** (step 2), then press the back button.
 
