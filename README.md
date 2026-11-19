@@ -14,8 +14,8 @@ Web page: https://holotuberkit.github.io/HoloTuberKit-RealTime/
 | --- | --- | --- |
 | **Sender** (capture) and **Receiver** | iPhone / iPad | [App Store](https://apps.apple.com/jp/app/holotuberkit/id6449902663) |
 | **Receiver** | Meta Quest 2 / Pro / 3 / 3S | [Meta Quest (beta)](https://www.meta.com/s/6tzXXzKuJ) |
-| **Receiver** | Android XR: XREAL Aura / Galaxy XR | [APK (GitHub Releases)](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit-AndroidXR.apk) |
-| **Receiver** | XREAL glasses + XREAL Beam Pro | [APK (GitHub Releases)](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit_XREAL-1_2_0.apk) |
+| **Receiver** | Android XR: XREAL Aura / Galaxy XR | [Contact me on X](https://x.com/Tks_Yoshinaga) |
+| **Receiver** | XREAL glasses + XREAL Beam Pro | [Contact me on X](https://x.com/Tks_Yoshinaga) |
 
 The iOS app contains both the Sender and the Receiver.
 Quest, Android XR and XREAL users need the **latest iOS app** (it adds LiDAR support).
@@ -63,13 +63,15 @@ Enter the same Connection ID and connect.
 
 For XREAL Aura and Galaxy XR. Only needed the first time you run the app.
 
-1. **Install the APK.** Download the APK from [GitHub Releases](https://github.com/HoloTuberKit/HoloTuberKit-RealTime/releases/download/v2.0.0/HoloTuberKit-AndroidXR.apk) and install it with adb: `adb install -r HoloTuberKit-AndroidXR.apk`. Turn on developer options and USB (or wireless) debugging on the device first.
+1. **Install the APK.** [Contact me on X](https://x.com/Tks_Yoshinaga) to get the APK and install it with adb: `adb install -r HoloTuberKit-AndroidXR.apk`. Turn on developer options and USB (or wireless) debugging on the device first.
 2. **Allow hand tracking.** When the app starts, a permission dialog asks to allow hand tracking. Allow it. The app is operated with your hands: pinch to press and grab.
 3. **Allow the microphone.** The first time you press **Connect**, a permission dialog appears. Allow it.
 
 **The Menu button.** Hold your left hand in front of you: a small **Menu** button appears next to your wrist. Press it to show or hide the panel (ID field, Connect / Disconnect, Manipulation). The panel hides itself when the point cloud appears.
 
 ## XREAL: first-time setup
+
+[Contact me on X](https://x.com/Tks_Yoshinaga) to get the APK and install it on your XREAL Beam Pro.
 
 1. **Allow "Display over other apps".** After installing, launch the app. The Android settings screen for *Display over other apps* appears (step 1). Select **HoloTuberKit**, turn on **Allow display over other apps** (step 2), then press the back button.
 
